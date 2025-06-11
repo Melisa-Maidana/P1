@@ -1,11 +1,5 @@
-const prompt = requiere('prompt-sync')()
-const limpiarPantalla = requiere ('clear')
+const prompt = requier('prompt-sync')();
 
-const nombre = prompt('Ingresa tu nombre:')
-const edad = Number(prompt('Ingresa tu edad:'))
-
-console.log('Hola',nombre, 'que lindo que tengas', edad, 'años')
-console.log('Hola',nombre, 'que lindo que tengas', edad, 'años')
-console.log('Hola',nombre, 'que lindo que tengas', edad, 'años')
-console.log('Hola',nombre, 'que lindo que tengas', edad, 'años')
-limpiarPantalla()
+const numero = Number(prompt('Ingresa tu numero favorito:'));
+const doble = numero * 2;
+console.log('El doble de tu numero favorito es:', doble);
