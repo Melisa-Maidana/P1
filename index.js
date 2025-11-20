@@ -1,5 +1,8 @@
-const prompt = requier('prompt-sync')();
+const prompt = require("prompt-sync")();
 
-const numero = Number(prompt('Ingresa tu numero favorito:'));
-const doble = numero * 2;
-console.log('El doble de tu numero favorito es:', doble);
+let numero = prompt("Ingresá tu número favorito: ");
+numero = Number(numero);
+
+let doble = numero * 2;
+
+console.log("El doble de tu número favorito es: " + doble);
